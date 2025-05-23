@@ -1,0 +1,1 @@
+console.log('InterPrice YBV carregado com sucesso!');
