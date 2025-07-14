@@ -1,3 +1,91 @@
-body { font-family: Arial, sans-serif; background: #f5f5f5; padding: 10px; }
-header, footer { background: #000; color: #fff; padding: 10px; text-align: center; }
-#produtos { display: grid; grid-template-columns: repeat(auto-fit, minmax(160px, 1fr)); gap: 10px; }
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #f1f1f1;
+  color: #333;
+  padding: 10px;
+}
+
+header, footer {
+  background-color: #000;
+  color: #fff;
+  padding: 15px;
+  text-align: center;
+}
+
+nav ul {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  list-style: none;
+  margin-top: 10px;
+  gap: 15px;
+}
+
+nav ul li {
+  background-color: #0077ff;
+  color: #fff;
+  padding: 8px 12px;
+  border-radius: 20px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+nav ul li:hover {
+  background-color: #005fcc;
+}
+
+#searchBox {
+  width: 100%;
+  padding: 12px;
+  margin: 20px 0;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+}
+
+#produtos {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
+  gap: 15px;
+}
+
+.produto {
+  background-color: #fff;
+  padding: 10px;
+  border-radius: 12px;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+  transition: transform 0.2s ease-in-out;
+}
+
+.produto:hover {
+  transform: scale(1.03);
+}
+
+.produto img {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+}
+
+.produto h3 {
+  font-size: 1rem;
+  margin: 10px 0 5px;
+}
+
+.produto p {
+  font-size: 0.9rem;
+  color: #0077ff;
+  font-weight: bold;
+}
+
+footer p {
+  font-size: 0.8rem;
+  color: #ccc;
+  margin-top: 20px;
+}
