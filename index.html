@@ -4,21 +4,309 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>InterPrice YBV</title>
-  <link rel="stylesheet" href="styles.css">
+  <style>
+    body {
+      background-color: #000;
+      color: #ccc;
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+    }
+    header {
+      background-color: #000;
+      color: #8ecae6;
+      padding: 1em;
+      text-align: center;
+    }
+    video {
+      display: block;
+      margin: 0 auto;
+      width: 90%;
+      max-width: 800px;
+      margin-bottom: 20px;
+    }
+    .products {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      padding: 20px;
+      background-color: #1a1a1a;
+    }
+    .product {
+      background-color: #333;
+      border-radius: 10px;
+      margin: 10px;
+      padding: 15px;
+      width: 240px;
+      text-align: center;
+      color: #fff;
+    }
+    .product img {
+      width: 100%;
+      height: auto;
+      border-radius: 8px;
+    }
+    .product h3 {
+      margin: 10px 0 5px;
+      color: #8ecae6;
+    }
+    .product p {
+      margin: 5px 0;
+    }
+    .buy-btn {
+      display: inline-block;
+      margin-top: 10px;
+      padding: 10px 20px;
+      background-color: #8ecae6;
+      color: #000;
+      border: none;
+      border-radius: 5px;
+      text-decoration: none;
+      font-weight: bold;
+    }
+  </style>
 </head>
 <body>
   <header>
     <h1>InterPrice YBV</h1>
     <p>O NOSSO LUCRO É A SATISFAÇÃO DOS CLIENTES</p>
-    <input id="searchBar" type="text" placeholder="Buscar produtos..." />
   </header>
   <main>
     <video controls>
       <source src="apresentação.mp4" type="video/mp4">
       Seu navegador não suporta vídeo HTML5.
     </video>
-    <section class="products" id="productList">
-      
+    <section class="products">
+
+      <div class="product">
+        <img src="BTW-05.jpg" alt="Head Fones P47">
+        <h3>Head Fones P47</h3>
+        <p>Preço: 400MZN</p>
+        <a class="buy-btn" href="https://wa.me/258834406339?text=Olá,%20preciso%20do%20produto%20BTW-05" target="_blank">Comprar no WhatsApp</a>
+      </div>
+    
+      <div class="product">
+        <img src="BTW-18.jpg" alt="Earpods Lenovo Tinkplus">
+        <h3>Earpods Lenovo Tinkplus</h3>
+        <p>Preço: 820MZN</p>
+        <a class="buy-btn" href="https://wa.me/258834406339?text=Olá,%20preciso%20do%20produto%20BTW-18" target="_blank">Comprar no WhatsApp</a>
+      </div>
+    
+      <div class="product">
+        <img src="CBC-01.jpg" alt="Cabo USB">
+        <h3>Cabo USB</h3>
+        <p>Preço: 145MZN</p>
+        <a class="buy-btn" href="https://wa.me/258834406339?text=Olá,%20preciso%20do%20produto%20CBC-01" target="_blank">Comprar no WhatsApp</a>
+      </div>
+    
+      <div class="product">
+        <img src="CE-01.jpg" alt="Celular POCO M7 PRO">
+        <h3>Celular POCO M7 PRO</h3>
+        <p>Preço: 7899MZN</p>
+        <a class="buy-btn" href="https://wa.me/258834406339?text=Olá,%20preciso%20do%20produto%20CE-01" target="_blank">Comprar no WhatsApp</a>
+      </div>
+    
+      <div class="product">
+        <img src="CFF-01.jpg" alt="Conjunto de Smartwatch e Bijuterias femininas">
+        <h3>Conjunto de Smartwatch e Bijuterias femininas</h3>
+        <p>Preço: 1250MZN</p>
+        <a class="buy-btn" href="https://wa.me/258834406339?text=Olá,%20preciso%20do%20produto%20CFF-01" target="_blank">Comprar no WhatsApp</a>
+      </div>
+    
+      <div class="product">
+        <img src="CGC-01.jpg" alt="Carregador para celulares (com cabo USB)">
+        <h3>Carregador para celulares (com cabo USB)</h3>
+        <p>Preço: 350MZN</p>
+        <a class="buy-btn" href="https://wa.me/258834406339?text=Olá,%20preciso%20do%20produto%20CGC-01" target="_blank">Comprar no WhatsApp</a>
+      </div>
+    
+      <div class="product">
+        <img src="CJ-01.jpg" alt="Conjunto Masculino">
+        <h3>Conjunto Masculino</h3>
+        <p>Preço: 1700MZN</p>
+        <a class="buy-btn" href="https://wa.me/258834406339?text=Olá,%20preciso%20do%20produto%20CJ-01" target="_blank">Comprar no WhatsApp</a>
+      </div>
+    
+      <div class="product">
+        <img src="CM-03.jpg" alt="Colar de Prata">
+        <h3>Colar de Prata</h3>
+        <p>Preço: 700MZN</p>
+        <a class="buy-btn" href="https://wa.me/258834406339?text=Olá,%20preciso%20do%20produto%20CM-03" target="_blank">Comprar no WhatsApp</a>
+      </div>
+    
+      <div class="product">
+        <img src="KS-06.jpg" alt="Kit para Manicure e Pedicure">
+        <h3>Kit para Manicure e Pedicure</h3>
+        <p>Preço: 850MZN</p>
+        <a class="buy-btn" href="https://wa.me/258834406339?text=Olá,%20preciso%20do%20produto%20KS-06" target="_blank">Comprar no WhatsApp</a>
+      </div>
+    
+      <div class="product">
+        <img src="LL-01.jpg" alt="Luz LED com Controle Android (5 metros)">
+        <h3>Luz LED com Controle Android (5 metros)</h3>
+        <p>Preço: 1240MZN</p>
+        <a class="buy-btn" href="https://wa.me/258834406339?text=Olá,%20preciso%20do%20produto%20LL-01" target="_blank">Comprar no WhatsApp</a>
+      </div>
+    
+      <div class="product">
+        <img src="LL-02.jpg" alt="LED para Automóvel (5 metros)">
+        <h3>LED para Automóvel (5 metros)</h3>
+        <p>Preço: 1640MZN</p>
+        <a class="buy-btn" href="https://wa.me/258834406339?text=Olá,%20preciso%20do%20produto%20LL-02" target="_blank">Comprar no WhatsApp</a>
+      </div>
+    
+      <div class="product">
+        <img src="O-07.jpg" alt="Óculos Estiloso">
+        <h3>Óculos Estiloso</h3>
+        <p>Preço: 568MZN</p>
+        <a class="buy-btn" href="https://wa.me/258834406339?text=Olá,%20preciso%20do%20produto%20O-07" target="_blank">Comprar no WhatsApp</a>
+      </div>
+    
+      <div class="product">
+        <img src="PS-05.jpg" alt="Peruca Sintética">
+        <h3>Peruca Sintética</h3>
+        <p>Preço: 5000MZN</p>
+        <a class="buy-btn" href="https://wa.me/258834406339?text=Olá,%20preciso%20do%20produto%20PS-05" target="_blank">Comprar no WhatsApp</a>
+      </div>
+    
+      <div class="product">
+        <img src="PT-01.jpg" alt="Pulseira de Prata">
+        <h3>Pulseira de Prata</h3>
+        <p>Preço: 700MZN</p>
+        <a class="buy-btn" href="https://wa.me/258834406339?text=Olá,%20preciso%20do%20produto%20PT-01" target="_blank">Comprar no WhatsApp</a>
+      </div>
+    
+      <div class="product">
+        <img src="RM-04.jpg" alt="Relógio Masculino Bin Bong">
+        <h3>Relógio Masculino Bin Bong</h3>
+        <p>Preço: 785MZN</p>
+        <a class="buy-btn" href="https://wa.me/258834406339?text=Olá,%20preciso%20do%20produto%20RM-04" target="_blank">Comprar no WhatsApp</a>
+      </div>
+    
+    
+<!-- ANTIGOS PRODUTOS AQUI -->
+<!-- (Conteúdo já incluído na primeira parte do arquivo no passo anterior) -->
+
+<!-- NOVOS PRODUTOS ADICIONADOS -->
+<div class="product">
+  <img src="CLR-01.jpg" alt="REDMI 14C (256GB)">
+  <h3>REDMI 14C (256GB)</h3>
+  <p>Preço: 8500MZN</p>
+  <a class="buy-btn" href="https://wa.me/258834406339?text=Olá,%20preciso%20do%20produto%20CLR-01" target="_blank">Comprar no WhatsApp</a>
+</div>
+
+<div class="product">
+  <img src="CLR-02.jpg" alt="INFINIX SAMRT 8">
+  <h3>INFINIX SAMRT 8</h3>
+  <p>Preço: 6000MZN</p>
+  <a class="buy-btn" href="https://wa.me/258834406339?text=Olá,%20preciso%20do%20produto%20CLR-02" target="_blank">Comprar no WhatsApp</a>
+</div>
+
+<div class="product">
+  <img src="CLR-03.jpg" alt="INFINIX HOT 50i">
+  <h3>INFINIX HOT 50i</h3>
+  <p>Preço: 9000MZN</p>
+  <a class="buy-btn" href="https://wa.me/258834406339?text=Olá,%20preciso%20do%20produto%20CLR-03" target="_blank">Comprar no WhatsApp</a>
+</div>
+
+<div class="product">
+  <img src="CLR-04.jpg" alt="GALAXY A34 5G">
+  <h3>GALAXY A34 5G</h3>
+  <p>Preço: 11800MZN</p>
+  <a class="buy-btn" href="https://wa.me/258834406339?text=Olá,%20preciso%20do%20produto%20CLR-04" target="_blank">Comprar no WhatsApp</a>
+</div>
+
+<div class="product">
+  <img src="CLR-05.jpg" alt="SAMSUNG NOTE 20 ULTRA">
+  <h3>SAMSUNG NOTE 20 ULTRA</h3>
+  <p>Preço: 26500MZN</p>
+  <a class="buy-btn" href="https://wa.me/258834406339?text=Olá,%20preciso%20do%20produto%20CLR-05" target="_blank">Comprar no WhatsApp</a>
+</div>
+
+<div class="product">
+  <img src="CLR-06.jpg" alt="REDMI 13C (156GB)">
+  <h3>REDMI 13C (156GB)</h3>
+  <p>Preço: 8000MZN</p>
+  <a class="buy-btn" href="https://wa.me/258834406339?text=Olá,%20preciso%20do%20produto%20CLR-06" target="_blank">Comprar no WhatsApp</a>
+</div>
+
+<div class="product">
+  <img src="CLR-07.jpg" alt="SAMSUNG S10 5G (512GB)">
+  <h3>SAMSUNG S10 5G (512GB)</h3>
+  <p>Preço: 18000MZN</p>
+  <a class="buy-btn" href="https://wa.me/258834406339?text=Olá,%20preciso%20do%20produto%20CLR-07" target="_blank">Comprar no WhatsApp</a>
+</div>
+
+<div class="product">
+  <img src="CLR-08.jpg" alt="SAMSUNG S23 ULTRA (256GB)">
+  <h3>SAMSUNG S23 ULTRA (256GB)</h3>
+  <p>Preço: 56000MZN</p>
+  <a class="buy-btn" href="https://wa.me/258834406339?text=Olá,%20preciso%20do%20produto%20CLR-08" target="_blank">Comprar no WhatsApp</a>
+</div>
+
+<div class="product">
+  <img src="CLR-09.jpg" alt="SAMSUNG S22 ULTRA (256GB)">
+  <h3>SAMSUNG S22 ULTRA (256GB)</h3>
+  <p>Preço: 37000MZN</p>
+  <a class="buy-btn" href="https://wa.me/258834406339?text=Olá,%20preciso%20do%20produto%20CLR-09" target="_blank">Comprar no WhatsApp</a>
+</div>
+
+<div class="product">
+  <img src="CLR-10.jpg" alt="IPHONE 11 (128GB)">
+  <h3>IPHONE 11 (128GB)</h3>
+  <p>Preço: 21500MZN</p>
+  <a class="buy-btn" href="https://wa.me/258834406339?text=Olá,%20preciso%20do%20produto%20CLR-10" target="_blank">Comprar no WhatsApp</a>
+</div>
+
+<div class="product">
+  <img src="CLR-11.jpg" alt="IPHONE 12 PRO MAX (256GB)">
+  <h3>IPHONE 12 PRO MAX (256GB)</h3>
+  <p>Preço: 36000MZN</p>
+  <a class="buy-btn" href="https://wa.me/258834406339?text=Olá,%20preciso%20do%20produto%20CLR-11" target="_blank">Comprar no WhatsApp</a>
+</div>
+
+<div class="product">
+  <img src="CLR-12.jpg" alt="IPHONE 11 PRO (256GB)">
+  <h3>IPHONE 11 PRO (256GB)</h3>
+  <p>Preço: 24500MZN</p>
+  <a class="buy-btn" href="https://wa.me/258834406339?text=Olá,%20preciso%20do%20produto%20CLR-12" target="_blank">Comprar no WhatsApp</a>
+</div>
+
+<div class="product">
+  <img src="CLR-13.jpg" alt="IPHONE X (256GB)">
+  <h3>IPHONE X (256GB)</h3>
+  <p>Preço: 15000MZN</p>
+  <a class="buy-btn" href="https://wa.me/258834406339?text=Olá,%20preciso%20do%20produto%20CLR-13" target="_blank">Comprar no WhatsApp</a>
+</div>
+
+<div class="product">
+  <img src="CLR-14.jpg" alt="IPHONE XS (256GB)">
+  <h3>IPHONE XS (256GB)</h3>
+  <p>Preço: 15500MZN</p>
+  <a class="buy-btn" href="https://wa.me/258834406339?text=Olá,%20preciso%20do%20produto%20CLR-14" target="_blank">Comprar no WhatsApp</a>
+</div>
+
+<div class="product">
+  <img src="CLR-15.jpg" alt="HUAWEI HONOR 20i (128GB)">
+  <h3>HUAWEI HONOR 20i (128GB)</h3>
+  <p>Preço: 4500MZN</p>
+  <a class="buy-btn" href="https://wa.me/258834406339?text=Olá,%20preciso%20do%20produto%20CLR-15" target="_blank">Comprar no WhatsApp</a>
+</div>
+
+<div class="product">
+  <img src="CLR-16.jpg" alt="IPHONE 13 (128GB)">
+  <h3>IPHONE 13 (128GB)</h3>
+  <p>Preço: 29000MZN</p>
+  <a class="buy-btn" href="https://wa.me/258834406339?text=Olá,%20preciso%20do%20produto%20CLR-16" target="_blank">Comprar no WhatsApp</a>
+</div>
+
+<div class="product">
+  <img src="CLR-17.jpg" alt="ITEL A20">
+  <h3>ITEL A20</h3>
+  <p>Preço: 3700MZN</p>
+  <a class="buy-btn" href="https://wa.me/258834406339?text=Olá,%20preciso%20do%20produto%20CLR-17" target="_blank">Comprar no WhatsApp</a>
+</div>
+    
     <div class="product">
       <img src="PS-01.jpg" alt="PERUCA SINTÉTICA">
       <h3>PERUCA SINTÉTICA</h3>
@@ -1282,8 +1570,7 @@
       <a class="buy-btn" href="https://wa.me/258834406339?text=Olá,%20preciso%20do%20produto%20A-02" target="_blank">Comprar no WhatsApp</a>
     </div>
     
-    </section>
+</section>
   </main>
-  <script src="script.js"></script>
 </body>
 </html>
