@@ -2,29 +2,25 @@
 <html lang="pt">
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>InterPrice YBV</title>
-  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-  <header><h1>InterPrice YBV</h1></header>
-  <nav>
-    <ul>
-      <li>Tecnologia para veículos</li>
-      <li>Utensílios domésticos</li>
-      <li>Acessórios de moda</li>
-      <li>Eletrônico</li>
-      <li>Beleza</li>
-      <li>Fantasia</li>
-    </ul>
-  </nav>
-  <input type="text" placeholder="Pesquisar produto..." id="searchBox">
-  <div id="produtos">
-    <!-- Produtos vão aqui -->
-  </div>
-  <footer>
-    <p>Ao comprar conosco, você aceita nossos Termos e Condições.</p>
-  </footer>
+  <header>
+    <h1>InterPrice YBV</h1>
+    <p>O NOSSO LUCRO É A SATISFAÇÃO DOS CLIENTES</p>
+    <input id="searchBar" type="text" placeholder="Buscar produtos..." />
+    <select id="categoryFilter">
+      <option value="">Todas as categorias</option>
+    </select>
+  </header>
+  <main>
+    <video controls>
+      <source src="apresentação.mp4" type="video/mp4">
+      Seu navegador não suporta vídeo HTML5.
+    </video>
+    <section id="productList" class="products"></section>
+  </main>
   <script src="script.js"></script>
 </body>
 </html>

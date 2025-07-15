@@ -1,91 +1,57 @@
 
-* {
-  box-sizing: border-box;
+body {
+  background-color: #000;
+  color: #ccc;
+  font-family: Arial, sans-serif;
   margin: 0;
   padding: 0;
 }
-
-body {
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-  background-color: #f1f1f1;
-  color: #333;
-  padding: 10px;
-}
-
-header, footer {
+header {
   background-color: #000;
-  color: #fff;
-  padding: 15px;
+  color: #8ecae6;
+  padding: 1em;
   text-align: center;
 }
-
-nav ul {
+input, select {
+  padding: 10px;
+  margin: 10px;
+  font-size: 16px;
+}
+.products {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  list-style: none;
-  margin-top: 10px;
-  gap: 15px;
+  padding: 20px;
+  background-color: #1a1a1a;
 }
-
-nav ul li {
-  background-color: #0077ff;
+.product {
+  background-color: #333;
+  border-radius: 10px;
+  margin: 10px;
+  padding: 15px;
+  width: 240px;
+  text-align: center;
   color: #fff;
-  padding: 8px 12px;
-  border-radius: 20px;
-  cursor: pointer;
-  transition: background-color 0.3s;
 }
-
-nav ul li:hover {
-  background-color: #005fcc;
-}
-
-#searchBox {
-  width: 100%;
-  padding: 12px;
-  margin: 20px 0;
-  border: 1px solid #ccc;
-  border-radius: 8px;
-}
-
-#produtos {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
-  gap: 15px;
-}
-
-.produto {
-  background-color: #fff;
-  padding: 10px;
-  border-radius: 12px;
-  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
-  transition: transform 0.2s ease-in-out;
-}
-
-.produto:hover {
-  transform: scale(1.03);
-}
-
-.produto img {
+.product img {
   width: 100%;
   height: auto;
   border-radius: 8px;
 }
-
-.produto h3 {
-  font-size: 1rem;
+.product h3 {
   margin: 10px 0 5px;
+  color: #8ecae6;
 }
-
-.produto p {
-  font-size: 0.9rem;
-  color: #0077ff;
+.product p {
+  margin: 5px 0;
+}
+button {
+  margin-top: 10px;
+  padding: 10px 20px;
+  background-color: #8ecae6;
+  color: #000;
+  border: none;
+  border-radius: 5px;
   font-weight: bold;
-}
-
-footer p {
-  font-size: 0.8rem;
-  color: #ccc;
-  margin-top: 20px;
+  cursor: pointer;
 }
