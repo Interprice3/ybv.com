@@ -12,10 +12,11 @@ header {
   padding: 1em;
   text-align: center;
 }
-input, select {
+input {
   padding: 10px;
-  margin: 10px;
+  margin-top: 10px;
   font-size: 16px;
+  width: 90%;
 }
 .products {
   display: flex;
@@ -45,13 +46,14 @@ input, select {
 .product p {
   margin: 5px 0;
 }
-button {
+.buy-btn {
+  display: inline-block;
   margin-top: 10px;
   padding: 10px 20px;
   background-color: #8ecae6;
   color: #000;
   border: none;
   border-radius: 5px;
+  text-decoration: none;
   font-weight: bold;
-  cursor: pointer;
 }
